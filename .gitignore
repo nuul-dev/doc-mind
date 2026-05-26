@@ -1,0 +1,26 @@
+# envs
+.env
+env/
+.venv/
+venv/
+
+# python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# docker volumes
+qdrant_data/
+
+# models cache (sentence-transformers downloads here)
+.cache/
+
+# claude code
+.claude/
